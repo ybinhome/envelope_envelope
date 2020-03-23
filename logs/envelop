@@ -1,0 +1,346 @@
+[38;5;37m[2020-03-23.22:39:03.126478 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-23.22:39:03.127420 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-23.22:39:03.127458 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-23.22:39:03.127499 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-23.22:39:03.127518 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-23.22:39:03.127677 ][0m [34mDEBUG[0m Initializing: type=%s*base.GoRPCStarter
+[38;5;37m[2020-03-23.22:39:03.127698 ][0m [34mDEBUG[0m Initializing: type=%s*gorpc.GoRpcApiStarter
+[38;5;37m[2020-03-23.22:39:03.127715 ][0m [32m INFO[0m goRPC Register: *gorpc.EnvelopeRpc
+[38;5;37m[2020-03-23.22:39:03.127770 ][0m [34mDEBUG[0m Initializing: type=%s*jobs.RefundExpiredJobStarter
+[38;5;37m[2020-03-23.22:39:03.127956 ][0m [34mDEBUG[0m Initializing: type=%s*infra.WebApiStarter
+[38;5;37m[2020-03-23.22:39:03.127976 ][0m [34mDEBUG[0m Initializing: type=%s*base.EurekaStarter
+[38;5;37m[2020-03-23.22:39:03.128425 ][0m [34mDEBUG[0m &{Leader:http://127.0.0.1:8761/eureka Machines:[http://127.0.0.1:8761/eureka]}
+[38;5;37m[2020-03-23.22:39:03.128475 ][0m [34mDEBUG[0m Initializing: type=%s*base.HookStarter
+[38;5;37m[2020-03-23.22:39:03.128537 ][0m [34mDEBUG[0m Initializing: type=%s*base.IrisServerStarter
+[38;5;37m[2020-03-23.22:39:03.128599 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-23.22:39:03.128675 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-23.22:39:03.128704 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-23.22:39:03.132999 ][0m [32m INFO[0m dial tcp 127.0.0.1:3306: connect: connection refused
+[38;5;37m[2020-03-23.22:39:03.133199 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-23.22:39:03.133271 ][0m [32m INFO[0m tcp port listened for rpc:8082
+[38;5;37m[2020-03-23.22:39:03.133304 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.PropsStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133327 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.DbxDatabaseStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133345 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.ValidatorStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133364 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.GoRPCStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133382 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *gorpc.GoRpcApiStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133399 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *jobs.RefundExpiredJobStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133416 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *infra.WebApiStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133434 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.EurekaStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133451 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.HookStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133469 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.IrisServerStarter.Stop()
+[38;5;37m[2020-03-23.22:39:03.133493 ][0m [32m INFO[0m[36m ./apis/web/account.go:26:[0m POST: /v1/account/create -> github.com/ybinhome/envelope/apis/web.createHandler() and 2 more
+[38;5;37m[2020-03-23.22:39:03.133515 ][0m [32m INFO[0m[36m ./apis/web/account.go:28:[0m POST: /v1/account/transfer -> github.com/ybinhome/envelope/apis/web.transferHandler() and 2 more
+[38;5;37m[2020-03-23.22:39:03.133537 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:21:[0m POST: /v1/envelope/sendout -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).sendOutHandler-fm() and 2 more
+[38;5;37m[2020-03-23.22:39:03.133556 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:22:[0m POST: /v1/envelope/receive -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).receiveHandler-fm() and 2 more
+[38;5;37m[2020-03-23.22:39:03.133588 ][0m [32m INFO[0m[36m ./../../gopath/pkg/mod/github.com/ybinhome/envelope_infra@v0.0.0-20200323143615-2a6a7fd8aae8/base/eureka.go:27:[0m GET: /info -> github.com/ybinhome/envelope_infra/base.(*EurekaStarter).Setup.func1() and 2 more
+[38;5;37m[2020-03-23.22:39:03.133613 ][0m [32m INFO[0m[36m ./../../gopath/pkg/mod/github.com/ybinhome/envelope_infra@v0.0.0-20200323143615-2a6a7fd8aae8/base/eureka.go:32:[0m GET: /health -> github.com/ybinhome/envelope_infra/base.(*EurekaStarter).Setup.func2() and 2 more
+[38;5;37m[2020-03-23.22:39:13.133735 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:39:13.133976 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:39:13.134060 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:39:13.134111 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:39:13.134774 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:13.135135 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:39:13.135184 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:39:13.135219 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:39:13.135489 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:13.135554 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:39:13.135590 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:39:13.135621 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:39:13.135879 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:23.132246 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:39:23.132401 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:39:23.132469 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:39:23.132519 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:39:23.132990 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:23.133139 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:39:23.133292 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:39:23.133336 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:39:23.133654 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:23.133715 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:39:23.133752 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:39:23.133794 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:39:23.134043 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:33.133650 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:39:33.133810 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:39:33.133870 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:39:33.133938 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:39:33.134419 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:33.134594 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:39:33.134676 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:39:33.134732 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:39:33.135156 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:33.135250 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:39:33.135322 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:39:33.135374 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:39:33.135732 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:43.129164 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:39:43.129352 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:39:43.129418 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:39:43.129456 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:39:43.129882 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:43.129999 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:39:43.130054 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:39:43.130159 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:39:43.130379 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:43.130436 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:39:43.130467 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:39:43.130502 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:39:43.130737 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:53.133250 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:39:53.133397 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:39:53.133448 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:39:53.133486 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:39:53.133911 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:53.134056 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:39:53.134120 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:39:53.134159 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:39:53.134544 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:39:53.134661 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:39:53.134711 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:39:53.134749 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:39:53.135103 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:03.132803 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:03.132981 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:03.132823 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
+[38;5;37m[2020-03-23.22:40:03.133042 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:03.133326 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:03.133744 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:03.133856 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:03.133930 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:03.133974 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:03.134315 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:03.134442 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:03.134473 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:03.134499 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:03.134728 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:03.140402 ][0m [32m INFO[0m 已经有节点在运行该任务了
+[38;5;37m[2020-03-23.22:40:13.143269 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:13.144174 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:13.144243 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:13.144280 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:13.144577 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:13.144679 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:13.144709 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:13.144732 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:13.145004 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:13.145061 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:13.145093 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:13.145125 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:13.145360 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:23.150143 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:23.150302 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:23.150354 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:23.150391 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:23.150874 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:23.151019 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:23.151098 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:23.151122 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:23.151364 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:23.151402 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:23.151425 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:23.151448 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:23.151718 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:33.149456 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:33.149695 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:33.149712 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:33.149725 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:33.150301 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:33.150629 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:33.150649 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:33.150691 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:33.150938 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:33.150957 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:33.151022 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:33.151089 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:33.151347 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:43.152141 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:43.152548 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:43.152577 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:43.152599 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:43.152836 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:43.154883 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:43.155022 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:43.155154 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:43.156230 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:43.156870 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:43.157195 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:43.157234 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:43.157456 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:53.150148 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:40:53.151077 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:40:53.151123 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:40:53.151147 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:40:53.151430 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:53.151521 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:40:53.151546 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:40:53.151566 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:40:53.151737 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:40:53.151767 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:40:53.151787 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:40:53.151805 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:40:53.152029 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:03.151172 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
+[38;5;37m[2020-03-23.22:41:03.151199 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:03.151957 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:03.152055 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:03.152103 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:03.152421 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:03.152558 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:03.152620 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:03.152671 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:03.152982 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:03.153187 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:03.153219 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:03.153247 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:03.153466 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:03.158803 ][0m [32m INFO[0m 已经有节点在运行该任务了
+[38;5;37m[2020-03-23.22:41:13.151271 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:13.151362 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:13.151399 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:13.151423 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:13.151639 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:13.151702 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:13.151729 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:13.151748 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:13.151888 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:13.151932 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:13.151951 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:13.151966 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:13.152113 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:23.150889 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:23.151057 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:23.151124 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:23.151167 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:23.151675 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:23.151822 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:23.151885 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:23.151915 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:23.152167 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:23.152208 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:23.152239 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:23.152268 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:23.152499 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:33.153114 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:33.153216 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:33.153248 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:33.153298 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:33.153582 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:33.153654 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:33.153725 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:33.153751 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:33.153963 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:33.154001 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:33.154024 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:33.154055 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:33.154252 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:43.153848 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:43.154005 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:43.154064 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:43.154112 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:43.154600 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:43.154762 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:43.154802 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:43.154831 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:43.155029 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:43.155074 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:43.155106 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:43.155132 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:43.155337 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:53.154755 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:41:53.154913 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:41:53.154962 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:41:53.155000 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:41:53.155432 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:53.155554 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:41:53.155604 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:41:53.155643 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:41:53.155969 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:41:53.156032 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:41:53.156069 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:41:53.156107 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:41:53.156429 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:03.151506 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
+[38;5;37m[2020-03-23.22:42:03.151533 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:03.151867 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:03.151940 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:03.151991 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:03.152378 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:03.152499 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:03.152677 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:03.152772 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:03.153018 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:03.153077 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:03.153106 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:03.153137 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:03.153371 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:03.159071 ][0m [32m INFO[0m 已经有节点在运行该任务了
+[38;5;37m[2020-03-23.22:42:13.152967 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:13.153171 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:13.153242 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:13.153294 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:13.153726 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:13.153855 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:13.153941 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:13.154015 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:13.154217 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:13.154260 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:13.154297 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:13.154325 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:13.154540 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:23.152413 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:23.152572 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:23.152606 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:23.152630 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:23.152888 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:23.152946 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:23.152968 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:23.152985 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:23.153150 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:23.153199 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:23.153222 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:23.153251 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:23.153419 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:33.152938 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:33.153078 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:33.153138 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:33.153177 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:33.153669 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:33.153792 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:33.153843 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:33.153925 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:33.154256 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:33.154316 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:33.154394 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:33.154430 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:33.154730 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:43.155670 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:43.155829 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:43.155888 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:43.155934 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:43.156363 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:43.156526 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:43.156589 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:43.156649 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:43.157001 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:43.157073 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:43.157121 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:43.157162 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:43.157578 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:53.155277 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-23.22:42:53.155570 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-23.22:42:53.155635 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-23.22:42:53.155674 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-23.22:42:53.156038 ][0m [31mERROR[0m network error: Get http://127.0.0.1:8761/eureka/apps: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:53.156132 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584974343128,"lastRenewalTimestamp":1584974343128},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-23.22:42:53.156315 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-23.22:42:53.156356 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-23.22:42:53.156566 ][0m [31mERROR[0m network error: Post http://127.0.0.1:8761/eureka/apps/envelope: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:53.156602 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-23.22:42:53.156620 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-23.22:42:53.156637 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-23.22:42:53.156862 ][0m [31mERROR[0m network error: Put http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP: dial tcp 127.0.0.1:8761: connect: connection refused
+[38;5;37m[2020-03-23.22:42:59.098799 ][0m [32m INFO[0m handle signal:  [32msignal[0m=interrupt
+[38;5;37m[2020-03-23.22:42:59.098898 ][0m [34mDEBUG[0m delete http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-23.22:42:59.098930 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-23.22:42:59.098978 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method DELETE 
+[38;5;37m[2020-03-23.22:42:59.098914 ][0m [31mERROR[0m http: Server closed
