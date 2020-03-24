@@ -4,9 +4,9 @@ import (
 	"github.com/segmentio/ksuid"
 	"github.com/shopspring/decimal"
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/ybinhome/envelope_envelope/services"
 	aservices "github.com/ybinhome/envelope_account/services"
-	_ "github.com/ybinhome/envelope_envelope/servicestest_brun"
+	"github.com/ybinhome/envelope_envelope/services"
+	_ "github.com/ybinhome/envelope_envelope/test_brun"
 	"testing"
 )
 

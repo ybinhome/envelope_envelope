@@ -17,8 +17,7 @@ require (
 	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 	github.com/tietang/go-utils v0.0.0-20190308094824-9e17fa5e3788
 	github.com/tietang/props v2.2.0+incompatible
-	github.com/ybinhome/envelope v0.0.0-20200322154356-d1c679592b92
-	github.com/ybinhome/envelope_account v0.0.0-20200323152518-3d1aabcdfad0
-	github.com/ybinhome/envelope_infra v0.0.0-20200323143615-2a6a7fd8aae8
+	github.com/ybinhome/envelope_account v0.0.0-20200323170640-cf97a7bf0aa0
+	github.com/ybinhome/envelope_infra v0.0.0-20200323162512-8f1177768e08
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )

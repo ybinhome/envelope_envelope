@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/tietang/props/ini"
 	"github.com/tietang/props/kvs"
-	_ "github.com/ybinhome/envelope"
+	_ "github.com/ybinhome/envelope_envelope"
 	"github.com/ybinhome/envelope_infra"
 )
 

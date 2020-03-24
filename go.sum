@@ -258,10 +258,12 @@ github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0 h1:6fRhSjgLCkTD3JnJx
 github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0/go.mod h1:/LWChgwKmvncFJFHJ7Gvn9wZArjbV5/FppcK2fKk/tI=
 github.com/ybinhome/envelope v0.0.0-20200322154356-d1c679592b92 h1:Y8H1XOZl8N4ePQLwpYJw0CT7s7/InHMhLfEHkYE2B3w=
 github.com/ybinhome/envelope v0.0.0-20200322154356-d1c679592b92/go.mod h1:6JeWLA/3c+P/ushgdi7lGzWGgxFQ7Ry0jIxHZvkbBS8=
-github.com/ybinhome/envelope_account v0.0.0-20200323152518-3d1aabcdfad0 h1:Tj+QYwdySem6D+sJTygmaZdVgIxfFdOIzL995tOCBCg=
-github.com/ybinhome/envelope_account v0.0.0-20200323152518-3d1aabcdfad0/go.mod h1:6H6iyYkan7MkLWUulcrbxAKXGTExoiH3IiteclXVPOI=
+github.com/ybinhome/envelope_account v0.0.0-20200323170640-cf97a7bf0aa0 h1:ZxqYOkDl0dpumvecuYFj2n8KvW6bxJsKaaNjgbfLOVo=
+github.com/ybinhome/envelope_account v0.0.0-20200323170640-cf97a7bf0aa0/go.mod h1:6H6iyYkan7MkLWUulcrbxAKXGTExoiH3IiteclXVPOI=
 github.com/ybinhome/envelope_infra v0.0.0-20200323143615-2a6a7fd8aae8 h1:wy/XMIjPgWIH0jibkpnmPClSmZmkCK2RxZCUbXzl3EE=
 github.com/ybinhome/envelope_infra v0.0.0-20200323143615-2a6a7fd8aae8/go.mod h1:TBXM/fSBBdylFcyb+sD60eE8W5SkAiCBfhrkwDKzlRg=
+github.com/ybinhome/envelope_infra v0.0.0-20200323162512-8f1177768e08 h1:MDHIFWfv//3cfnh4W+cUfvozcjaotZt1aE0360FI6Uk=
+github.com/ybinhome/envelope_infra v0.0.0-20200323162512-8f1177768e08/go.mod h1:tdYkb1u/9u+26ypM2yjJb40NfKH3N0BVVFY5AI+KUP4=
 github.com/yudai/gojsondiff v1.0.0 h1:27cbfqXLVEJ1o8I6v3y9lg8Ydm53EKqHXAOMxEGlCOA=
 github.com/yudai/gojsondiff v1.0.0/go.mod h1:AY32+k2cwILAkW1fbgxQ5mUmMiZFgLIV+FBNExI05xg=
 github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 h1:BHyfKlQyqbsFN5p3IfnEUduWvb9is428/nNb5L3U01M=
